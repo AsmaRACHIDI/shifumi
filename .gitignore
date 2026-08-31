@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environnement virtuel
+.venv/
+
+# Données et modèles : trop lourds pour git
+data/
+models/
+!models/.gitkeep
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Flask
+flask_session/
+instance/
+*.log
+
+# IDE et OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
