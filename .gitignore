@@ -11,8 +11,9 @@ htmlcov/
 .venv/
 
 # Données et modèles : trop lourds pour git
-data/
-models/
+data/*
+!data/.gitkeep
+models/*
 !models/.gitkeep
 
 # Notebooks
